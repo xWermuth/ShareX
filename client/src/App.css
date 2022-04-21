@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #fafafa;
+}
+
+button:focus {
+  outline: none;
+}
+
+.content-container {
+  margin: 0 auto 0 auto;
+  width: 100%;
+  max-width: 1800px;
+  flex: 1 1;
+  position: relative;
+}
+
+.nav-container svg {
+  color: #fff;
+}
+
+.nav-container {
+  margin: 0 auto;
+}
+.MuiInput-underline:before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.sharex-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: row;
+}
+
+.side-chat {
+  position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+  .content-container {
+    padding-bottom: 70px;
+  }
+}

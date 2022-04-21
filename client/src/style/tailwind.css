@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply bg-red-900 p-12 pt-8;
+}
+
+@tailwind utilities;

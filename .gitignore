@@ -1,0 +1,13 @@
+
+LICENSE
+node_modules/
+.DS_Store
+yarn.lock.cached
+README.md
+README.md
+client/yarn.lock
+README.md
+client/public/favicon.ico
+server/.env
+server/config/.keys
+bfg-1.14.0.jar

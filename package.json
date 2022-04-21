@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Sharex is platform to share moments with family and friends",
+  "main": "index.js",
+  "dependencies": {
+    "postcss-cli": "^7.1.1",
+    "postcss": "^7.0.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "next build",
+    "start": "next start -p ${PORT}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xWermuth/ShareX.git"
+  },
+  "author": "Alexander Majgaard Wermuth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xWermuth/ShareX/issues"
+  },
+  "homepage": "https://github.com/xWermuth/ShareX#readme"
+}
